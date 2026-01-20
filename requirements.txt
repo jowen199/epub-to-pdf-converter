@@ -1,0 +1,5 @@
+ebooklib>=0.18
+weasyprint>=60.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+Pillow>=10.0.0
