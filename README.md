@@ -4,6 +4,19 @@ A portable Mac app for bulk converting EPUB files to PDF with a modern queue-bas
 
 ![macOS](https://img.shields.io/badge/macOS-10.15+-blue)
 ![Python](https://img.shields.io/badge/Python-3.8+-green)
+[![Download DMG](https://img.shields.io/badge/Download-DMG-brightgreen)](https://github.com/jowen199/epub-to-pdf-converter/releases/latest/download/EPUB-to-PDF-Converter.dmg)
+
+## Download
+
+**[⬇️ Download EPUB-to-PDF-Converter.dmg](https://github.com/jowen199/epub-to-pdf-converter/releases/latest/download/EPUB-to-PDF-Converter.dmg)** (43 MB)
+
+### Quick Install
+1. Download the DMG file above
+2. Open the DMG
+3. Drag "EPUB to PDF Converter.app" to Applications
+4. Launch from Applications
+
+> **Note:** Requires Homebrew libraries: `brew install pango cairo gdk-pixbuf python-tk@3.14`
 
 ## Features
 
@@ -70,8 +83,8 @@ epub-to-pdf-converter/
 
 - macOS 10.15 (Catalina) or later
 - Python 3.8+
-- Dependencies (installed automatically):
-  - customtkinter - Modern UI toolkit
+- Homebrew libraries: `brew install pango cairo gdk-pixbuf python-tk@3.14`
+- Python dependencies (installed automatically):
   - ebooklib - EPUB parsing
   - weasyprint - PDF generation
   - beautifulsoup4 - HTML processing
